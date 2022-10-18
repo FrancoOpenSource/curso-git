@@ -1,5 +1,7 @@
 const url = "https://jsonplaceholder.typicode.com";
-
+//Cambio 1
+//Cambio 2
+//Cambio 3
 const getUser = async (id) => {
   const res = await fetch(`${url}/users?id=${id}`);
   const user = (await res.json())[0];
