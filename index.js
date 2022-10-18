@@ -57,3 +57,7 @@ getBlogContent();
 const loadAdds = () => {
   console.log("Anuncios cargados")
 }
+
+const bug = () => {
+  //Trabajando en el bug
+}
